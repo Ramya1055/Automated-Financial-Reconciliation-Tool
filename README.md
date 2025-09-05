@@ -2,7 +2,7 @@
 
 # NEFT, RTGS, and NPCI Reconciliation 
 
-This project automates the reconciliation of NEFT, RTGS, and NPCI financial transactions under the **IT Department at APCOB**. It is a Python-based solution that replaces manual processes with a fast, accurate, and reliable system.
+This project automates the reconciliation of NEFT, RTGS, and NPCI financial transactions under the **Data Analytics and IT Department of APCOB**. It is a Python-based solution that replaces manual processes with a fast, accurate, and reliable system.
 
 ---
 
@@ -40,7 +40,7 @@ This project automates the reconciliation of NEFT, RTGS, and NPCI financial tran
   - Unmatched CBS/SFMS/NPCI entries
   - CAMT-specific sheets
   - Reconciliation Summary Dashboard
-- Duplicate detection and audit flagging
+- Duplicate detection
 - Error-tolerant processing of changing formats and layouts
 
 ---
@@ -51,7 +51,6 @@ This project automates the reconciliation of NEFT, RTGS, and NPCI financial tran
 - `pandas`
 - `openpyxl`
 - `re` (Regular Expressions)
-- `fuzzywuzzy` or `rapidfuzz`
 
 ---
 
@@ -64,7 +63,9 @@ This project automates the reconciliation of NEFT, RTGS, and NPCI financial tran
   - NEFT (Inward / Outward)
   - RTGS (Inward / Outward)
   - NPCI RTGS workflows
- 
+
+ ---
+
 ## Folder Structure 
 
 ├── sample input files/
