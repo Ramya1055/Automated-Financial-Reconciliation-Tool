@@ -64,3 +64,14 @@ This project automates the reconciliation of NEFT, RTGS, and NPCI financial tran
   - NEFT (Inward / Outward)
   - RTGS (Inward / Outward)
   - NPCI RTGS workflows
+ 
+## Folder Structure 
+
+├── sample input files/
+│ ├── cbs_reports/
+│ ├── sfms_files/
+│ └── npci_csvs/
+├── sample output/
+│ └── Sample output/
+├── main.py
+└── README.md
